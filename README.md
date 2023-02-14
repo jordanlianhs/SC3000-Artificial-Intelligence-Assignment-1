@@ -1,4 +1,5 @@
-# SC3000-Assignment-1
+# SC3000-Assignment-1 (Balancing a pole on a cart)
+
 As shown in the figure below, a pole is attached by an un-actuated joint to a cart, which moves along a frictionless track. The pendulum is placed upright on the cart and the goal is to balance the pole by applying forces in the left and right direction on the cart. In this project, you will need to develop a Reinforcement Learning (RL) agent. The trained agent makes the decision to push the cart to the left or right based on the cart position, velocity, and the pole angle, angular velocity.
  
 ![Picture 1](https://user-images.githubusercontent.com/97859704/218644872-e8ed5b58-e5a3-4000-9336-1368cd8c1428.gif)
@@ -34,4 +35,3 @@ The episode ends if any one of the following occurs:
 Termination: Pole Angle is greater than ±12°
 Termination: Cart Position is greater than ±2.4 (center of the cart reaches the edge of the display)
 Truncation: Episode length is greater than 500.
-![image](https://user-images.githubusercontent.com/97859704/218644792-eded4f32-4b66-40e6-8503-b59a13a57ab7.png)
